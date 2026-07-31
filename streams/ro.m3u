@@ -41,8 +41,14 @@ https://651c69fa2ff4e.streamlock.net/ctv/_definst_/livecredo/playlist.m3u8
 https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
 #EXTINF:-1 tvg-id="DottoTV.ro@SD",Dotto TV (1080p)
 https://live.dottotv.ro/index.m3u8
+#EXTINF:-1 tvg-id="EMITV.ro@SD",EMI TV
+https://astra.emitv.ro/hls/emi/index.m3u8
 #EXTINF:-1 tvg-id="TVSE.ro@SD",Exploris (576p) [Not 24/7]
 http://89.38.8.130:39419
+#EXTINF:-1 tvg-id="HD365TV.ro@SD",HD365 TV
+https://s2.netstreaming.eu/hd365.m3u8
+#EXTINF:-1 tvg-id="HelloTaste.ro@SD",Hello Taste (720p)
+https://dai.google.com/linear/hls/pa/event/YeG0_KbLRjGeYKU2qVhl_Q/stream/daadc33b-fc6b-4c9e-a8d4-9ca1b7087d4d:BRU/master.m3u8
 #EXTINF:-1 tvg-id="HelloTaste.ro@SD",Hello Taste (720p)
 https://stream1.antenaplay.ro/live/HelloTaste/playlist.m3u8
 #EXTINF:-1 tvg-id="Hunedoara1.ro@SD",Hunedoara 1 (480p) [Not 24/7]
@@ -59,6 +65,9 @@ https://informatia.streamnet.ro/mobile_tv/informatiatv.m3u8
 https://jobtvserver.eu/hls/stream.m3u8
 #EXTINF:-1 tvg-id="KanalD.ro@SD",Kanal D (480p)
 https://stream1.kanald.ro/iphone/knd-live.m3u8
+#EXTINF:-1 tvg-id="KanalD2.ro@SD",Kanal D2 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://aes.m3u8simplu.workers.dev/kanald2/index.m3u8
 #EXTINF:-1 tvg-id="KanalD2.ro@SD",Kanal D2 (1080i)
 https://stream2.kanald.ro/iphone/knd2-live.m3u8
 #EXTINF:-1 tvg-id="KissTV.ro@SD",Kiss TV (1080p)
@@ -69,6 +78,8 @@ http://streamer1.streamhost.org:1935/salive/GMIlcbgM/playlist.m3u8
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="MagicTV.ro@SD",Magic TV (720p)
 https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8
+#EXTINF:-1 tvg-id="MediCOOLTV.ro@SD",MediCOOL TV
+https://dai.google.com/linear/hls/pa/event/dpT7XJvhSzm5-pQkjgqRtg/stream/851625d8-0bfe-4ea1-a924-ddb3ff4d1e53:GRQ/master.m3u8
 #EXTINF:-1 tvg-id="MetropolaTV.ro@SD",Metropola TV (1080p) [Not 24/7]
 https://www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8
 #EXTINF:-1 tvg-id="Mireasa.ro@SD",Mireasa (720p)
@@ -83,6 +94,10 @@ https://live.nasul.tv/live/stream.m3u8
 http://novapress.ro:2022/live/nova/playlist.m3u8
 #EXTINF:-1 tvg-id="PROTVNews.ro@SD",Pro TV News (1080p)
 https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
+#EXTINF:-1 tvg-id="PROFI24TV.ro@SD",PROFI 24 TV
+https://live.ro24tv.ro/hls/stream.m3u8
+#EXTINF:-1 tvg-id="QubTV.ro@SD",Qub TV
+https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8
 #EXTINF:-1 tvg-id="RadioFxNet.ro@HD",Radio Fx Net (720p)
 https://streamlov.alsolnet.com/radiofxnet/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RapsodiaTV.ro@SD",Rapsodia TV (576p)
@@ -158,18 +173,3 @@ https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
 https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSat.ro@SD",TVSat (576p) [Not 24/7]
 http://89.38.8.130:39443
-#EXTINF:-1 tvg-id="KanalD2.ro@SD",Kanal D2 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/kanald2/index.m3u8
-#EXTINF:-1 tvg-id="EMITV.ro@SD",EMI TV
-https://astra.emitv.ro/hls/emi/index.m3u8
-#EXTINF:-1 tvg-id="HelloTaste.ro@SD",Hello Taste (720p)
-https://dai.google.com/linear/hls/pa/event/YeG0_KbLRjGeYKU2qVhl_Q/stream/daadc33b-fc6b-4c9e-a8d4-9ca1b7087d4d:BRU/master.m3u8
-#EXTINF:-1 tvg-id="MediCOOLTV.ro@SD",MediCOOL TV
-https://dai.google.com/linear/hls/pa/event/dpT7XJvhSzm5-pQkjgqRtg/stream/851625d8-0bfe-4ea1-a924-ddb3ff4d1e53:GRQ/master.m3u8
-#EXTINF:-1 tvg-id="PROFI24TV.ro@SD",PROFI 24 TV
-https://live.ro24tv.ro/hls/stream.m3u8
-#EXTINF:-1 tvg-id="QubTV.ro@SD",Qub TV
-https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8
-#EXTINF:-1 tvg-id="HD365TV.ro@SD",HD365 TV
-https://s2.netstreaming.eu/hd365.m3u8

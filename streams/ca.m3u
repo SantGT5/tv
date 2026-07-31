@@ -101,6 +101,8 @@ https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1
 http://stream.cammonitorplus.net/1731/index.m3u8
 #EXTINF:-1 tvg-id="CTVLifeChannel.ca@SD",CTV Life Channel (720p)
 http://185.246.209.113/ANIMALPLANETHD/index.m3u8
+#EXTINF:-1 tvg-id="CTVSpeedChannel.ca@SD",CTV Speed Channel (720p)
+https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8
 #EXTINF:-1 tvg-id="DesheBidesheTV.ca@SD",DesheBideshe TV
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 #EXTINF:-1 tvg-id="DoyelTV.ca@SD",Doyel TV
@@ -115,6 +117,8 @@ https://eu.streamjo.com/eetlive/eettv.m3u8
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/emciamerique.m3u8
 #EXTINF:-1 tvg-id="ErfanHalghehTV.ca@SD",Erfan Halgheh TV (720p)
 https://hls.erfanhalgheh.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="FamilyJr.ca@SD",Family Jr (576p)
+http://tvsen5.aynascope.net/familyjr/index.m3u8
 #EXTINF:-1 tvg-id="FightNetwork.ca@SD",Fight Network (1080p)
 https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-id="GaundaPunjabTV.ca@SD",Gaunda Punjab TV (720p)
@@ -255,8 +259,12 @@ http://40.160.24.55/SLICE/index.m3u8
 https://iptv.sohailtv.com/sohail/playlist/index.m3u8
 #EXTINF:-1 tvg-id="SooriyanTV.ca@SD",Sooriyan TV (1080p)
 https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:-1 tvg-id="StingrayiConcerts.ca@HD",Stingray iConcerts HD
+https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 #EXTINF:-1 tvg-id="StingrayRememberthe80s.ca@SD",Stingray Remember the 80s
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8
+#EXTINF:-1 tvg-id="SuperChannelVault.ca@SD",Super Channel Vault (1080p)
+http://206.212.244.63/6142/index.m3u8
 #EXTINF:-1 tvg-id="TPlusE.ca@SD",T+E (720p)
 http://185.246.209.113/T+E/index.m3u8
 #EXTINF:-1 tvg-id="TAGTV.ca@SD",TAG TV (1080p) [Not 24/7]
@@ -307,11 +315,3 @@ https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8
 https://wcgtv.ca/live-10/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="ZeeTVCanada.ca@SD",Zee TV Canada (1080p)
 https://origin-cae-m462953.toober.com/4c3caf7294b3/c8bf99484885/playlist.m3u8
-#EXTINF:-1 tvg-id="StingrayiConcerts.ca@HD",Stingray iConcerts HD
-https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
-#EXTINF:-1 tvg-id="SuperChannelVault.ca@SD",Super Channel Vault (1080p)
-http://206.212.244.63/6142/index.m3u8
-#EXTINF:-1 tvg-id="FamilyJr.ca@SD",Family Jr (576p)
-http://tvsen5.aynascope.net/familyjr/index.m3u8
-#EXTINF:-1 tvg-id="CTVSpeedChannel.ca@SD",CTV Speed Channel (720p)
-https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8

@@ -96,11 +96,19 @@ https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="DW.de@English",DW English (720p)
 http://45.190.28.50/DW/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@English",DW English (720p)
+http://170.83.16.50/DW/index.m3u8
+#EXTINF:-1 tvg-id="DW.de@English",DW English (720p)
 https://stream8.cinerama.uz/1418/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="DW.de@English",DW English (576p)
+http://stream.mcquack.net/440/index.m3u8
+#EXTINF:-1 tvg-id="DW.de@English",DW English (576p)
+https://cdn-7.pishow.tv/live/431/master.m3u8
 #EXTINF:-1 tvg-id="DW.de@Espanol",DW Espanol (1080p)
 http://177.234.249.178:8888/DW/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@Espanol",DW Espanol (1080p)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
+#EXTINF:-1 tvg-id="DW.de@Espanol",DW Espanol (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=16660
 #EXTINF:-1 tvg-id="DW.de@Espanol",DW Espanol (720p)
 http://45.162.231.38:7779/DW/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@Russian",DW Russian (1080p)
@@ -278,6 +286,9 @@ https://cdne.folxplay.tv/folx-trz/streams/ch-6/master.m3u8
 #EXTINF:-1 tvg-id="OstWest.de@SD",Ost West (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://hls127.freeott.top:8080/OstWest/video.m3u8
+#EXTINF:-1 tvg-id="OstWest24.de@SD",Ost West 24 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/455/index.m3u8
 #EXTINF:-1 tvg-id="Parlamentsfernsehen1.de@SD",Parlamentsfernsehen 1 (1080p) [Geo-blocked]
 https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk1/_definst_/live/video/hk1_de.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Parlamentsfernsehen1.de@SD",Parlamentsfernsehen 1 (1080p) [Not 24/7]
@@ -454,6 +465,8 @@ https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8
 https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8
 #EXTINF:-1 tvg-id="WeltderWunderTV.de@SD",Welt der Wunder TV (576p)
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
+#EXTINF:-1 tvg-id="YOLTV.de@SD",YOL TV
+https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ZDF.de@SD",ZDF (720p) [Geo-blocked]
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1 tvg-id="ZDFinfo.de@SD",ZDFinfo (720p) [Geo-blocked]
@@ -462,16 +475,3 @@ https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 #EXTINF:-1 tvg-id="ZweiMusicTelevision.de@SD",ZWEI2 Music (1080p)
 https://cdne.folxplay.tv/folx-trz/streams/ch-2/master.m3u8
-#EXTINF:-1 tvg-id="DW.de@English",DW English (576p)
-https://cdn-7.pishow.tv/live/431/master.m3u8
-#EXTINF:-1 tvg-id="OstWest24.de@SD",Ost West 24 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://stream.mcquack.net/455/index.m3u8
-#EXTINF:-1 tvg-id="YOLTV.de@SD",YOL TV
-https://live.yoltv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="DW.de@Espanol",DW Espanol (1080p)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=16660
-#EXTINF:-1 tvg-id="DW.de@English",DW English (720p)
-http://170.83.16.50:80/DW/index.m3u8
-#EXTINF:-1 tvg-id="DW.de@English",DW English (576p)
-http://stream.mcquack.net/440/index.m3u8

@@ -41,6 +41,8 @@ https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1014/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="Milliy.uz@SD",Milliy (480p) [Not 24/7]
 http://milliy.tv/hls/index.m3u8
+#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz@SD",Muz TV Uzbekistan
+https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MY5.uz@SD",MY5 (1080p)
 https://st.my5.media/hls/hd/index.m3u8
 #EXTINF:-1 tvg-id="MY5.uz@SD",MY5 (576p)
@@ -65,7 +67,7 @@ https://stream8.cinerama.uz/1221/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="Sport.uz@SD",Sport
 https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="TaraqqiyotTV.uz@SD",Taraqqiyot TV
+#EXTINF:-1 tvg-id="TaraqqiyotTV.uz@SD",Taraqqiyot TV (1080p)
 https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Toshkent.uz@SD",Toshkent (576p)
 https://stream8.cinerama.uz/1003/tracks-v1a1/playlist.m3u8
@@ -75,5 +77,3 @@ https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1002/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ZorTV.uz@SD",Zo'r TV (576p)
 https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz@SD",Muz TV Uzbekistan
-https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
