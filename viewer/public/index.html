@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IPTV Playlists</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📺</text></svg>" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">📺</span>
+        <div>
+          <h1>IPTV Playlists</h1>
+          <p id="library-stats" class="muted">loading…</p>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          <input id="search" type="search" placeholder="Search channels, ids, urls…  (press /)" autocomplete="off" />
+        </label>
+        <button id="btn-update" class="btn btn-primary">
+          <span class="dot"></span> Update lists
+        </button>
+        <button id="btn-theme" class="btn btn-icon" title="Toggle theme">◐</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <input id="country-filter" class="input" type="search" placeholder="Filter countries…" autocomplete="off" />
+        <nav id="country-list" class="country-list"></nav>
+      </aside>
+
+      <main class="content">
+        <div class="toolbar">
+          <div id="crumb" class="crumb"></div>
+          <div class="filters">
+            <select id="filter-source" class="input input-sm" title="Playlist file"></select>
+            <select id="filter-category" class="input input-sm" title="Category"></select>
+            <select id="filter-quality" class="input input-sm" title="Quality"></select>
+            <select id="sort" class="input input-sm" title="Sort">
+              <option value="name">Sort: name</option>
+              <option value="quality">Sort: quality</option>
+              <option value="country">Sort: country</option>
+            </select>
+            <label class="check"><input id="filter-live" type="checkbox" /> 24/7 only</label>
+            <label class="check"><input id="filter-geo" type="checkbox" /> Hide geo-blocked</label>
+            <label class="check"><input id="filter-nsfw" type="checkbox" checked /> Hide NSFW</label>
+          </div>
+          <div class="toolbar-right">
+            <button id="btn-check" class="btn btn-sm" title="Test the visible streams">Check streams</button>
+            <button id="btn-export" class="btn btn-sm" title="Download the current selection as .m3u">Export .m3u</button>
+            <button id="btn-raw" class="btn btn-sm" title="View the raw playlist file">Raw</button>
+          </div>
+        </div>
+
+        <div id="results" class="results"></div>
+        <div id="sentinel"></div>
+      </main>
+    </div>
+
+    <div id="modal" class="modal" hidden>
+      <div class="modal-card">
+        <div class="modal-head">
+          <h2 id="modal-title">Updating playlists</h2>
+          <button id="modal-close" class="btn btn-icon">✕</button>
+        </div>
+        <div id="modal-steps" class="steps"></div>
+        <pre id="modal-log" class="log"></pre>
+      </div>
+    </div>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
