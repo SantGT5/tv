@@ -1,7 +1,7 @@
 import { Collection, Dictionary } from '@freearhey/core'
-import { DATA_DIR } from './constants'
-import cliProgress from 'cli-progress'
 import * as sdk from '@iptv-org/sdk'
+import cliProgress from 'cli-progress'
+import { DATA_DIR } from './constants'
 
 const data = {
   categoriesKeyById: new Dictionary<sdk.Models.Category>(),
@@ -154,4 +154,4 @@ function searchChannels(query: string): Collection<sdk.Models.Channel> {
   return channels
 }
 
-export { data, loadData, downloadData, searchChannels }
+export { data, downloadData, loadData, searchChannels }
